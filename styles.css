@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #a066615d;
+  height: fit-content;
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  width: 55%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.image-logo {
+  margin: 0 auto;
+  top: 20px;
+  object-fit: cover;
+}
+
+.image-logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.welcome {
+  color: #333;
+}
+
+.preparation-section {
+  background-color: #a066614f;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.preparation-section h2 {
+  color: #5c0c08b6;
+  font-size: 1rem;
+}
+
+.preparation-section ul {
+  margin: 15px 10px;
+}
+
+.preparation-section ul li {
+  color: #333;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.preparation-section ul li span {
+  font-weight: bold;
+}
+
+.ingredients-section h2 {
+  color: #ac413ce7;
+  font-size: 1.5rem;
+}
+
+.ingredients-section ul {
+  margin: 15px 20px;
+}
+
+.ingredients-section ul li {
+  color: #333;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.ingredients-section ul li ::marker {
+  color: brown;
+}
+
+.instructions-section {
+  border-top: 0.5px solid #33333350;
+  border-bottom: 1px solid #33333350;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.instructions-section h2 {
+  color: #ac413ce7;
+  font-size: 1.5rem;
+}
+
+.instructions-section ol {
+  margin: 15px 20px;
+}
+
+.instructions-section ol li {
+  color: #333;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.instructions-section ol li::marker {
+  color: brown;
+}
+
+.instructions-section ol span {
+  font-weight: bold;
+  color: #333;
+}
+
+.nutrition-section h2 {
+  color: #ac413ce7;
+  font-size: 1.5rem;
+}
+
+.nutrition-section p {
+  color: #333;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.nutrition-section table {
+  width: 100%;
+  border-collapse: collapse; /* used to */
+}
+
+.nutrition-section table tr {
+  border-bottom: 1px solid #3333332f;
+}
+.nutrition-section table tr td {
+  padding: 10px 20px;
+  color: #333;
+  font-size: 1rem;
+}
+
+.nutrition-section table tr th {
+  font-weight: bold;
+  color: #ac413ce7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #333;
+  font-size: 1rem;
+  font-size: 18px;
+}
+
+footer span {
+  color: red;
+  font-size: 20px;
+}
