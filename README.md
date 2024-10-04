@@ -4,7 +4,7 @@ This is a simple recipe website built using HTML and CSS.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/kemboi590/recipe.git`
+1. Clone the repository: `git clone https://github.com/kemboi590/Recipe-CSK-Demo-App.git`
 2. Open the `index.html` file in your web browser.
 
 ## Usage
